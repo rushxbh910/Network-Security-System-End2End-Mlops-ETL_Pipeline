@@ -4,5 +4,6 @@ numpy
 seaborn
 pymongo
 certifi
+pymongo[srv]==3.12
 
 ##-e .
