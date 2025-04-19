@@ -1,0 +1,25 @@
+[2025-04-18 21:22:58,657] 17 root - INFO - initiate the data ingestion
+[2025-04-18 21:23:00,651] 62 root - INFO - Performed train test split on the dataframe
+[2025-04-18 21:23:00,651] 63 root - INFO - Exited the split_data_as_train_test method of data_ingestion class
+[2025-04-18 21:23:00,652] 67 root - INFO - Exporting train and test file path.
+[2025-04-18 21:23:00,690] 77 root - INFO - exported train and test file path
+[2025-04-18 21:23:00,691] 19 root - INFO - Data ingestion Completed!
+[2025-04-18 21:23:00,691] 22 root - INFO - Initiate data validation!
+[2025-04-18 21:23:00,770] 36 root - INFO - Required number of columns:2
+[2025-04-18 21:23:00,770] 37 root - INFO - Dataframe has columns:31
+[2025-04-18 21:23:00,771] 36 root - INFO - Required number of columns:2
+[2025-04-18 21:23:00,771] 37 root - INFO - Dataframe has columns:31
+[2025-04-18 21:23:00,867] 26 root - INFO - Data Validation Completed!
+[2025-04-18 21:23:00,867] 29 root - INFO - Initiate transformation!
+[2025-04-18 21:23:00,868] 52 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[2025-04-18 21:23:00,868] 55 root - INFO - starting data transformation!
+[2025-04-18 21:23:00,885] 38 root - INFO - entered get_data_transformer_object of transformation class
+[2025-04-18 21:23:00,885] 42 root - INFO - initialized knnimputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-04-18 21:23:00,896] 45 root - INFO - Entered the save_object method of MainUtils class
+[2025-04-18 21:23:00,897] 49 root - INFO - Exited the save_object method of MainUtils class
+[2025-04-18 21:23:00,898] 33 root - INFO - Data Transformation Completed!
+[2025-04-18 21:23:00,898] 36 root - INFO - Initiate training!
+[2025-04-18 21:24:00,635] 45 root - INFO - Entered the save_object method of MainUtils class
+[2025-04-18 21:24:00,651] 49 root - INFO - Exited the save_object method of MainUtils class
+[2025-04-18 21:24:00,652] 158 root - INFO - Model saved to Artifacts\04_18_2025_21_22_53\model_trainer\trained_model\model.pkl
+[2025-04-18 21:24:00,654] 40 root - INFO - Model Training Completed!
